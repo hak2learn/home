@@ -1,35 +1,31 @@
 // Navigation Bar SECTION
 const navBar = {
-  show: true,
+  show: false,
 };
 
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Sivaraman",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Girisan",
+  message: " Cybersecurity Consultant | Penetration Tester ",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
-    },
-    {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/hak2learn",
+    },
+    {
+      image: "fa-readme",
+      url: "https://hak2learn.gitbook.io/",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://twitter.com/hak2learn",
+    },
+    {
+      image: "fa-github",
+      url: "https://github.com/hak2learn",
     },
   ],
 };
@@ -51,10 +47,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("images.credly.com/size/680x680/images/debde51b-f245-49fe-825a-4fedb8af904b/blob.jpeg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "A passionate and highly skilled Information Security professional with over 5 years of experience thriving to improve the security posture of organizations. He has contributed towards the security enhancement of leading organizations in various sectors in GCC including the Government Ministry, Operational Technology, Banking & Financial, Airlines, Real Estate, and Telecom by performing thorough penetration testing activities and other security assessments.",
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
@@ -64,7 +60,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
   reposLength: 4,
@@ -100,30 +96,28 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Web Application PT", value: 90 },
+    { name: "Mobile Application PT", value: 85 },
+    { name: "Network PT", value: 90 },
+    { name: "Phishing", value: 90 },
+    { name: "API PT", value: 80 },
+    { name: "Wireless PT", value: 75 },
+    { name: "Active Directory PT", value: 80 },
+    { name: "Red Teaming", value: 75 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Compromise Assessment", value: 70 },
+    { name: "Network Security Architecture Review", value: 75 },
+    { name: "Configuration Review", value: 85 },
+    { name: "OT Security Audit", value: 70 },
+    { name: "Cloud Security Review", value: 70 },
+    { name: "Source Code Review", value: 75 },
   ],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: true,
+  show: false,
   heading: "Get In Touch",
   message:
     "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
