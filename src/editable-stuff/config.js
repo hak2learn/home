@@ -50,7 +50,7 @@ const about = {
   imageLink: require("images.credly.com/size/680x680/images/debde51b-f245-49fe-825a-4fedb8af904b/blob.jpeg"),
   imageSize: 375,
   message:
-    "A passionate and highly skilled Information Security professional with over 5 years of experience thriving to improve the security posture of organizations. He has contributed towards the security enhancement of leading organizations in various sectors in GCC including the Government Ministry, Operational Technology, Banking & Financial, Airlines, Real Estate, and Telecom by performing thorough penetration testing activities and other security assessments.",
+    "A passionate and highly skilled Information Security professional with over 5 years of experience thriving to improve the security posture of organizations. I have contributed towards the security enhancement of leading organizations in various sectors in GCC including the Government Ministry, Operational Technology, Banking & Financial, Airlines, Real Estate, and Telecom by performing thorough penetration testing activities and other security assessments.",
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
